@@ -119,3 +119,27 @@ form input {
   text-align: center;
   margin: 30px auto;
 }
+
+/* loading state */
+.teleport {
+  max-width: 640px;
+  background: #7dc4f3;
+  padding: 5px 0;
+  text-align: center;
+  margin: 30px auto;
+  margin-top: 200px;
+}
+.imported {
+  text-align: center;
+}
+.tbtn {
+  display: inline-block;
+  margin-left: 10px;
+  background: #fff;
+  border: 2px solid #555;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-size: 1em;
+}

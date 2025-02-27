@@ -5,6 +5,10 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // add a defualt dev port for vite or also for npm run dev
+  server: {
+    port: 3500,
+  },
   plugins: [vue()],
   resolve: {
     alias: {

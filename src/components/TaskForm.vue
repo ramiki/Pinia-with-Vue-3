@@ -24,7 +24,8 @@ export default {
         taskStore.addTask({
           title: newTask.value,
           isFav: false,
-          id: Math.floor(Math.random() * 1000000)
+          // we change the id to string bcs json-server auto stringify ids , and get errors if id was a number
+          id: String(Math.floor(Math.random() * 1000000))
         })
         newTask.value = ""
       }
